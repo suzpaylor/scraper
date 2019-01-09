@@ -2,29 +2,32 @@
 
 
 .delete {
-	font-size: 20px;
-	font-family: 'Amatic SC', cursive;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-	font-weight:bold;
-	color: blue;
+	background-color: #ee3a23!important;
+	border-color: darkgrey!important;
+	letter-spacing: 2px!important;
+	font-family: 'Cantarell', sans-serif!important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)!important;
+}
+
+.delete:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)!important;
+	color: white!important;
 }
 
 .notes{
-	font-size: 20px;
-	font-family: 'Amatic SC', cursive;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-	font-weight:bold;
-	color: blue;
+	background-color: #ee3a23!important;
+	border-color: darkgrey!important;
+	letter-spacing: 2px!important;
+	font-family: 'Cantarell', sans-serif!important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)!important;
 }
 
+.notes:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)!important;
+	color: white!important;
+}
 
 .addNote {
 	font-size: 40px;
@@ -35,7 +38,7 @@
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 	font-weight:bold;
-	color: blue;
+	color: #4067b2;
 }
 
 .save {
@@ -80,7 +83,7 @@
 	width: 100%;
 	height: 500px;
 	padding: 0;
-	box-shadow: 10px 5px 20px 2px blue;
+	box-shadow: 10px 5px 20px 2px lightgray;
 }
 
 .jumbotron .overlay {
@@ -90,13 +93,13 @@
 	bottom: 0;
 	left: 0;
 	z-index: auto;
-	background: linear-gradient(blue, red);
+	background: linear-gradient(white, grey);
 	opacity: 0.7;
 }
 
 .jumbotron .background-image {
-	position: relative;
-	background-image: url("http://ecx.images-amazon.com/images/I/717g1eZuXGL.png");
+	max-width: 100%;
+	background-image: url(npr2.png);
 	height:100%;
 
 }
@@ -111,14 +114,18 @@
 
 .jumbotron h1 {
 	font-size: 100px;
-	font-family: 'Fjalla One', sans-serif;
-	color: darkgrey;
+	font-family: 'Cantarell', sans-serif;
+	color: black;
 	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+		-1px -1px 0 darkgrey,
+		1px -1px 0 darkgrey,
+		-1px 1px 0 darkgrey,
+		1px 1px 0 darkgrey;
 	font-weight: bold;
+}
+
+.scraper {
+	color: #ee3a23;
 }
 
 @media screen and (max-width: 600px) {
@@ -129,51 +136,49 @@
 
 
 
-.jumbotron p {
-	font-size: 60px;
-	font-family: 'Amatic SC', cursive;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-	font-weight:bold;
-	color: red;
-}
+
 
 h3 {
-	font-size: 40px;
-	font-family: 'Amatic SC', cursive;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+	font-size: 32px;
+	font-family: 'Cantarell', sans-serif;
 	font-weight:bold;
-	color: blue;
+	color: #4067b2;
 }
 
 .articles
 {
 	font-size: 25px;
-	font-family: 'Amatic SC', cursive;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-	color: blue;
+	font-family: 'Cantarell', sans-serif;
+	letter-spacing: 1.5px;
+	color: #4067b2;
 }
 
 .panel-body {
 	font-size: 25px;
-	font-family: 'Amatic SC', cursive;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-	color: blue;
+	font-family: 'Cantarell', sans-serif;
+	color: #4067b2;
+	letter-spacing: 1.2px;
 }
 
+.btn-success {
+	background-color: #ee3a23!important;
+	border-color: darkgrey!important;
+	letter-spacing: 2px!important;
+	font-family: 'Cantarell', sans-serif!important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)!important;
+}
+
+.btn-success:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)!important;
+	color: white!important;
+	
+}
+a {
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1)!important;
+}
+a:hover {
+	color: #3d63a9!important;
+	text-decoration: none!important;
+}
 
