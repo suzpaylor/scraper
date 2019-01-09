@@ -1,0 +1,22 @@
+
+
+
+{{#unless Article}}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>
+          Hit Scrape New Articles at the top navbar to populate the list
+        </h3>
+    </div>
+</div>
+{{/unless}}
+
+
+<ul class = "articles">
+  {{#each Article}}
+    {{#unless saveArticle}}
+      {{> panels/notSaved-all }}
+    {{/unless}}
+  {{/each}}
+</ul>
+
