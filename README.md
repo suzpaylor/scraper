@@ -2,7 +2,7 @@
 ## News Scraper with Mongo DB and Cheerios 
 
 **The fully deployed app can be found at:**
-_https://mysterious-reaches-64951.herokuapp.com/_
+_https://suz-scraper.herokuapp.com/_
 
 ### Objective
 
